@@ -476,6 +476,7 @@ GameObject:
   - component: {fileID: 1459490369}
   - component: {fileID: 1459490368}
   - component: {fileID: 1459490370}
+  - component: {fileID: 1459490371}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -508,8 +509,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1459490367}
-  selectedCommands: []
+  - {fileID: 1459490358}
+  selectedCommands:
+  - {fileID: 1459490368}
   variables: []
   description: 
   stepPause: 0
@@ -676,6 +678,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1459490363}
   commandList:
+  - {fileID: 1459490371}
   - {fileID: 1459490362}
   suppressAllAutoSelections: 0
 --- !u!114 &1459490365
@@ -756,7 +759,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 5
+    floatVal: 7
   durationOLD: 0
 --- !u!114 &1459490369
 MonoBehaviour:
@@ -792,6 +795,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 10
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  durationOLD: 0
+--- !u!114 &1459490371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459490355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 11
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
@@ -930,7 +951,7 @@ VideoPlayer:
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 1
   m_TargetAudioSources:
