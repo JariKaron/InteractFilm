@@ -595,14 +595,14 @@ VideoPlayer:
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 1
   m_TargetAudioSources:
   - {fileID: 1218087321}
   m_DirectAudioVolumes:
   - 1
-  m_Url: https://drive.google.com/file/d/1x3nk6kqs9JkXi7aP-65A2dkS0E8gHe4h/view?usp=sharing
+  m_Url: https://youtu.be/L-h7CERPilI
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
