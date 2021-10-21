@@ -169,7 +169,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 188756490}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 78f9f2eb136674a4ea2364a57899a3cd, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -179,14 +179,14 @@ VideoPlayer:
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 1
   m_TargetAudioSources:
   - {fileID: 1641653377}
   m_DirectAudioVolumes:
   - 1
-  m_Url: file://C:/Users/Admin/Downloads/Video/test03.mp4
+  m_Url: https://drive.google.com/file/d/1kgRA9COPzMoe7vQqFLmDDEbOig0k5We3/view?usp=sharing
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
