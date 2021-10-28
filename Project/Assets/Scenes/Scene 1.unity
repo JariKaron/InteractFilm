@@ -951,14 +951,14 @@ VideoPlayer:
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 1
   m_TargetAudioSources:
   - {fileID: 1405453552}
   m_DirectAudioVolumes:
   - 1
-  m_Url: https://github.com/JariKaron/InteractFilm/blob/main/Project/Assets/Videos/test01.mp4
+  m_Url: 
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
@@ -1158,6 +1158,67 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
+--- !u!1001 &6338369230216130751
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6338369231953270668, guid: 7353c4b6c1602f24d95629c19f6155f3, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6338369231953270668, guid: 7353c4b6c1602f24d95629c19f6155f3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6338369231953270668, guid: 7353c4b6c1602f24d95629c19f6155f3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6338369231953270668, guid: 7353c4b6c1602f24d95629c19f6155f3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6338369231953270668, guid: 7353c4b6c1602f24d95629c19f6155f3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6338369231953270668, guid: 7353c4b6c1602f24d95629c19f6155f3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6338369231953270668, guid: 7353c4b6c1602f24d95629c19f6155f3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6338369231953270668, guid: 7353c4b6c1602f24d95629c19f6155f3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6338369231953270668, guid: 7353c4b6c1602f24d95629c19f6155f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6338369231953270668, guid: 7353c4b6c1602f24d95629c19f6155f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6338369231953270668, guid: 7353c4b6c1602f24d95629c19f6155f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6338369231953270669, guid: 7353c4b6c1602f24d95629c19f6155f3, type: 3}
+      propertyPath: theVideo
+      value: 
+      objectReference: {fileID: 1908685985}
+    - target: {fileID: 6338369231953270670, guid: 7353c4b6c1602f24d95629c19f6155f3, type: 3}
+      propertyPath: m_Name
+      value: VideoScpt
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7353c4b6c1602f24d95629c19f6155f3, type: 3}
 --- !u!1001 &8025801837496495810
 PrefabInstance:
   m_ObjectHideFlags: 0
