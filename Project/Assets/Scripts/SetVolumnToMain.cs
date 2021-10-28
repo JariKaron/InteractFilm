@@ -10,14 +10,14 @@ public class SetVolumnToMain : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("WAAAAAAA");
 
-        theSource.volume = PlayerPrefs.GetFloat("masterVolume");
-
-        Debug.Log("BBBBBBBBBBBBBBBB");
+        AudioListener.volume = MenuController.globalVolumnForAll;
+        theSource.volume = MenuController.globalVolumnForAll;
 
         if(PlayerPrefs.HasKey("masterVolume"))
         {
+            AudioListener.volume = MenuController.globalVolumnForAll;
+
             AudioListener.volume = PlayerPrefs.GetFloat("masterVolume");
         }
         else

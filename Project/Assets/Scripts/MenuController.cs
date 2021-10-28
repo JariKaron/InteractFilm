@@ -19,6 +19,9 @@ public class MenuController : MonoBehaviour
     private string levelToLoad;
     [SerializeField] private GameObject noSaveGameDialog = null;
 
+
+    public static float globalVolumnForAll;
+
     public void NewGameDialogYes()
     {
         SceneManager.LoadScene(_newGameLevel);
@@ -47,10 +50,14 @@ public class MenuController : MonoBehaviour
         AudioListener.volume = volume;
         volumeTextValue.text = volume.ToString("0");
         Debug.Log(PlayerPrefs.GetFloat("masterVolume"));
+
+        globalVolumnForAll = volume;
     }
 
     public void VolumeApply()
     {
+        globalVolumnForAll = AudioListener.volume;
+
         PlayerPrefs.SetFloat("masterVolume", AudioListener.volume);
         Debug.Log(PlayerPrefs.GetFloat("masterVolume"));
         StartCoroutine(ConfirmationBox());
@@ -60,6 +67,8 @@ public class MenuController : MonoBehaviour
     {
         if (MenuType == "Audio")
         {
+            globalVolumnForAll = defaultVolume;
+
             AudioListener.volume = defaultVolume;
             volumeSlider.value = defaultVolume;
             volumeTextValue.text = defaultVolume.ToString("5");
