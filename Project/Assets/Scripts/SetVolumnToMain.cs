@@ -7,12 +7,23 @@ using UnityEngine.Audio;
 public class SetVolumnToMain : MonoBehaviour
 { 
     public AudioSource theSource;
+    public VideoPlayer theVideo;
 
     void Start()
     {
 
+        Debug.Log(MenuController.globalVolumnForAll);
+
         AudioListener.volume = MenuController.globalVolumnForAll;
         theSource.volume = MenuController.globalVolumnForAll;
+
+        Debug.Log(PlayerPrefs.GetFloat("masterVolume"));
+
+
+        theVideo.SetDirectAudioVolume(0, MenuController.globalVolumnForAll);  
+        theVideo.SetDirectAudioVolume(0, PlayerPrefs.GetFloat("masterVolume")); 
+
+
 
         if(PlayerPrefs.HasKey("masterVolume"))
         {
@@ -25,7 +36,6 @@ public class SetVolumnToMain : MonoBehaviour
             Debug.Log("Cannot find playerPref");
         }
     }
-
 
 
 
