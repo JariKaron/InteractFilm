@@ -718,7 +718,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231
     y: 153
-    width: 78.23529
+    width: 79.41176
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -780,7 +780,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231
     y: 67.82353
-    width: 75.41176
+    width: 75.88235
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -823,7 +823,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 71
     y: 67
-    width: 110.235275
+    width: 113.5294
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -863,9 +863,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 875451002}
-  selectedCommands:
-  - {fileID: 875451000}
+  - {fileID: 875451004}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
