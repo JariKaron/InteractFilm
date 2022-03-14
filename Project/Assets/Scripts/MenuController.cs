@@ -36,8 +36,6 @@ public class MenuController : MonoBehaviour
     void firstLoadVol()
     {
         volLoad = PlayerPrefs.GetFloat("masterVolume");
-        
-        Debug.Log(volLoad);
         SetSoundAndText(volLoad);
     }
 
@@ -76,7 +74,6 @@ public class MenuController : MonoBehaviour
     {
         Application.Quit();
     }
-
 
     public void VolumeApply()
     {
