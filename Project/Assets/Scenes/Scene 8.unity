@@ -647,7 +647,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Scene 6
+    stringVal: Scene 9
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &875450996
@@ -666,7 +666,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 26
+    floatVal: 21
   durationOLD: 0
 --- !u!114 &875450997
 MonoBehaviour:
@@ -684,7 +684,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Scene 6
+    stringVal: Scene 10
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &875450998
@@ -718,7 +718,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231
     y: 153
-    width: 78.23529
+    width: 79.36708
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -746,7 +746,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Scene 7
+    stringVal: Scene 9
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &875451001
@@ -780,7 +780,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231
     y: 67.82353
-    width: 75.41176
+    width: 76.32911
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -822,8 +822,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 71
-    y: 65.82353
-    width: 110.235275
+    y: 67
+    width: 111.77214
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -851,11 +851,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 28.069988, y: 11.209684}
+  scrollPos: {x: 41.02604, y: 9.780051}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.85000014
+  zoom: 0.7900002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1066,7 +1066,7 @@ PrefabInstance:
       objectReference: {fileID: 748673765}
     - target: {fileID: 6338369231953270669, guid: 7353c4b6c1602f24d95629c19f6155f3, type: 3}
       propertyPath: videoName
-      value: R.mp4
+      value: OD.mp4
       objectReference: {fileID: 0}
     - target: {fileID: 6338369231953270670, guid: 7353c4b6c1602f24d95629c19f6155f3, type: 3}
       propertyPath: m_Name
@@ -1083,19 +1083,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3787521733636324940, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 620.6
+      value: 630
       objectReference: {fileID: 0}
     - target: {fileID: 3787521733636324940, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 147.5148
+      value: 143.5741
       objectReference: {fileID: 0}
     - target: {fileID: 3787521733636324940, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 513.5851
+      value: 507
       objectReference: {fileID: 0}
     - target: {fileID: 3787521733636324940, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -303.84436
+      value: -329
       objectReference: {fileID: 0}
     - target: {fileID: 3787521733636324941, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1132,26 +1132,30 @@ PrefabInstance:
     - target: {fileID: 3787521733636324942, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 2cb32fb6584e03943987f8917bace8cd, type: 3}
+      objectReference: {fileID: 21300000, guid: 196f2afa912f6c94c9d976ec72af41ec, type: 3}
     - target: {fileID: 3787521733937209973, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
       propertyPath: m_Name
       value: Next
       objectReference: {fileID: 0}
+    - target: {fileID: 3787521733937209973, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3787521733937209974, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 620.6
+      value: 630
       objectReference: {fileID: 0}
     - target: {fileID: 3787521733937209974, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 147.5136
+      value: 143.5729
       objectReference: {fileID: 0}
     - target: {fileID: 3787521733937209974, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -461
+      value: -441.55017
       objectReference: {fileID: 0}
     - target: {fileID: 3787521733937209974, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -303.84436
+      value: -329
       objectReference: {fileID: 0}
     - target: {fileID: 3787521733937209975, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1188,26 +1192,20 @@ PrefabInstance:
     - target: {fileID: 3787521733937210760, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 7c43470dba9bcf442a6d2740c7ac0298, type: 3}
-    - target: {fileID: 3787521734666444468, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: d0518ee5723ab5e44a34e16033b29dd7, type: 3}
     - target: {fileID: 3787521734666444468, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -31.5452
-      objectReference: {fileID: 0}
-    - target: {fileID: 3787521734666444468, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -0.000045776
       objectReference: {fileID: 0}
     - target: {fileID: 3787521734666444468, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -15.7725
+      value: 0.000030517578
       objectReference: {fileID: 0}
     - target: {fileID: 3787521734666444469, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
       propertyPath: m_Text
-      value: '       Check notebook'
+      value: '   Go behind him
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 3787521734666444469, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
       propertyPath: m_Color.b
@@ -1228,14 +1226,6 @@ PrefabInstance:
     - target: {fileID: 3787521734666444469, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 3787521734666444469, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3787521734666444469, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
-      propertyPath: m_FontData.m_LineSpacing
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3787521734946128971, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
       propertyPath: m_Name
@@ -1339,7 +1329,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3787521734963459198, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
       propertyPath: m_Text
-      value: '      Turn off notebook'
+      value: '      Wait until he goes'
       objectReference: {fileID: 0}
     - target: {fileID: 3787521734963459198, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
       propertyPath: m_Color.b
@@ -1357,6 +1347,10 @@ PrefabInstance:
       propertyPath: m_FontData.m_Font
       value: 
       objectReference: {fileID: 12800000, guid: 38fb69338d588b64ea5f2c219db3056b, type: 3}
+    - target: {fileID: 3787521734963459198, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 60
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9da8c11d4ef682743b33a62ac284916e, type: 3}
 --- !u!224 &1387638475 stripped
