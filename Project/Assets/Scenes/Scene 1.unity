@@ -1397,6 +1397,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7441370562594859744, guid: b42d04937a81b114c932c3f372622fe8, type: 3}
+      propertyPath: theVideo
+      value: 
+      objectReference: {fileID: 903636326}
     - target: {fileID: 8025801838272646356, guid: b42d04937a81b114c932c3f372622fe8, type: 3}
       propertyPath: m_Name
       value: SetStartVolumn
