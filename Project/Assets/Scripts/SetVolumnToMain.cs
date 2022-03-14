@@ -6,40 +6,14 @@ using UnityEngine.Audio;
 
 public class SetVolumnToMain : MonoBehaviour
 { 
-    // public AudioSource theSource;
-    public VideoPlayer theVideo;
+    [SerializeField] AudioMixer mixer;
     float audioVol;
 
     void Start()
     {
-        theVideo = FindObjectOfType<VideoPlayer>();
-        Debug.Log(theVideo);
-
-        // Debug.Log(MenuController.globalVolumnForAll);
-
-        AudioListener.volume = MenuController.globalVolumnForAll;
-        // theSource.volume = MenuController.globalVolumnForAll;
         audioVol = PlayerPrefs.GetFloat("masterVolume");
-
-        Debug.Log(PlayerPrefs.GetFloat("masterVolume"));
-
-        // theVideo.SetDirectAudioVolume(0, MenuController.globalVolumnForAll);  
-        print(audioVol);
-        theVideo.SetDirectAudioVolume(0, audioVol); 
-
-
-
-        if(PlayerPrefs.HasKey("masterVolume"))
-        {
-            AudioListener.volume = MenuController.globalVolumnForAll;
-            AudioListener.volume = PlayerPrefs.GetFloat("masterVolume");
-        }
-        else
-        {
-            Debug.Log("Cannot find playerPref");
-        }
+        mixer.SetFloat("Master", Mathf.Log10(audioVol)*20);
     }
-
 
 
 }

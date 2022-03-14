@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
@@ -10,7 +11,7 @@ public class MenuController : MonoBehaviour
     [Header("Volume Setting")]
     [SerializeField] private TMP_Text volumeTextValue = null;
     [SerializeField] private Slider volumeSlider = null;
-    [SerializeField] private float defaultVolume = 5.0f;
+    [SerializeField] private float defaultVolume = .5f;
 
     [SerializeField] private GameObject comfirmationPrompt = null;
 
@@ -18,9 +19,35 @@ public class MenuController : MonoBehaviour
     public string _newGameLevel;
     private string levelToLoad;
     [SerializeField] private GameObject noSaveGameDialog = null;
+    public AudioMixer mixer;
+
+    private float volLoad;
 
 
-    public static float globalVolumnForAll;
+    private void Start() 
+    {
+        firstLoadVol();
+        volumeSlider.onValueChanged.AddListener((v) => 
+        {
+            SetSoundAndText(v);
+        });
+    }
+
+    void firstLoadVol()
+    {
+        volLoad = PlayerPrefs.GetFloat("masterVolume");
+        
+        Debug.Log(volLoad);
+        SetSoundAndText(volLoad);
+    }
+
+    void SetSoundAndText(float _v)
+    {
+        volumeSlider.value = _v;
+        mixer.SetFloat("Master", setValueLog(_v));
+        volumeTextValue.SetText((_v*10).ToString("0"));
+        PlayerPrefs.SetFloat("masterVolume", _v);
+    }
 
     public void NewGameDialogYes()
     {
@@ -40,26 +67,19 @@ public class MenuController : MonoBehaviour
         }
     }
 
+    public float setValueLog(float _v)
+    {
+        return Mathf.Log10(_v)*20;
+    }
+
     public void ExitButton()
     {
         Application.Quit();
     }
 
-    public void SetVolume(float volume)
-    {
-        AudioListener.volume = volume;
-        volumeTextValue.text = volume.ToString("0");
-        Debug.Log(PlayerPrefs.GetFloat("masterVolume"));
-
-        globalVolumnForAll = volume;
-    }
 
     public void VolumeApply()
     {
-        globalVolumnForAll = AudioListener.volume;
-
-        PlayerPrefs.SetFloat("masterVolume", AudioListener.volume);
-        Debug.Log(PlayerPrefs.GetFloat("masterVolume"));
         StartCoroutine(ConfirmationBox());
     }
 
@@ -67,11 +87,7 @@ public class MenuController : MonoBehaviour
     {
         if (MenuType == "Audio")
         {
-            globalVolumnForAll = defaultVolume;
-
-            AudioListener.volume = defaultVolume;
-            volumeSlider.value = defaultVolume;
-            volumeTextValue.text = defaultVolume.ToString("5");
+            SetSoundAndText(defaultVolume);
             VolumeApply();
         }
     }

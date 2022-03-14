@@ -942,8 +942,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 387.62, y: -26.842}
-  m_SizeDelta: {x: -1548.287, y: -1226.111}
+  m_AnchoredPosition: {x: 387.62, y: 14.907959}
+  m_SizeDelta: {x: -1548.287, y: -1159.879}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &327200142
 MonoBehaviour:
@@ -1820,8 +1820,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 358.7, y: -244}
-  m_SizeDelta: {x: -1606.116, y: -1219.344}
+  m_AnchoredPosition: {x: 358.7, y: -215}
+  m_SizeDelta: {x: -1606.116, y: -1178.28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &687486690
 MonoBehaviour:
@@ -2253,7 +2253,7 @@ AudioSource:
   m_GameObject: {fileID: 750849684}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: b3316b437bd44674882cc1cee51bbf5d, type: 2}
   m_audioClip: {fileID: 8300000, guid: 4d9490fb407a97345a751f06e6a96189, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -2457,18 +2457,6 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1694756974}
-        m_TargetAssemblyTypeName: UnityEngine.UI.Slider, UnityEngine.UI
-        m_MethodName: set_value
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 5
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -3628,8 +3616,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 418.47, y: -133}
-  m_SizeDelta: {x: -1486.585, y: -1226.936}
+  m_AnchoredPosition: {x: 418.46997, y: -95.532036}
+  m_SizeDelta: {x: -1486.585, y: -1173.428}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1143346188
 MonoBehaviour:
@@ -4867,25 +4855,13 @@ MonoBehaviour:
   m_FillRect: {fileID: 636765374}
   m_HandleRect: {fileID: 1275935394}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 10
+  m_MinValue: 0.0000001
+  m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 5
+  m_Value: 0.5
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1816931634}
-        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
-        m_MethodName: SetVolume
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1697824195
 GameObject:
   m_ObjectHideFlags: 0
@@ -5659,10 +5635,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   volumeTextValue: {fileID: 18595039}
   volumeSlider: {fileID: 1694756974}
-  defaultVolume: 1
+  defaultVolume: 0.5
   comfirmationPrompt: {fileID: 1331902804}
   _newGameLevel: Scene 1
   noSaveGameDialog: {fileID: 1816212670}
+  mixer: {fileID: 24100000, guid: b3316b437bd44674882cc1cee51bbf5d, type: 2}
 --- !u!4 &1816931635
 Transform:
   m_ObjectHideFlags: 0
