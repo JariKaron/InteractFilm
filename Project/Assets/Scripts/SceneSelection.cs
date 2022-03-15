@@ -6,19 +6,22 @@ using UnityEngine.SceneManagement;
 
 public class SceneSelection : MonoBehaviour
 {
-
 	int ScenesUnlocked;
 	public Button[] buttons;
 
-	// Use this for initialization
 	void Start () 
 	{
 		ScenesUnlocked = PlayerPrefs.GetInt("ScenesUnlocked", 1);
 
-		for (int i = 0; i < buttons.Length; i++)
+		foreach (Button _b in buttons)
 		{
-			buttons[i].interactable = false;
+			_b.interactable = false;
 		}
+		// for (int i = 0; i < buttons.Length; i++)
+		// {
+		// 	buttons[i].interactable = false;
+		// }
+		
 		for (int i = 0; i < ScenesUnlocked; i++)
 		{
 			buttons[i].interactable = true;
