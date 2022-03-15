@@ -21,11 +21,23 @@ public class SceneSelection : MonoBehaviour
 		// {
 		// 	buttons[i].interactable = false;
 		// }
-		
-		for (int i = 0; i < ScenesUnlocked; i++)
+
+		for (int i = 0; i < buttons.Length; i++)
 		{
-			buttons[i].interactable = true;
+			if(!(i < ScenesUnlocked))
+			{
+				return;
+			}
+			else
+			{
+				buttons[i].interactable = true;
+			}
 		}
+		
+		// for (int i = 0; i < ScenesUnlocked; i++)
+		// {
+		// 	buttons[i].interactable = true;
+		// }
     }
 
 	public void LoadLevel(int SceneIndex)
