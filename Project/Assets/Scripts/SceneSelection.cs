@@ -8,7 +8,6 @@ public class SceneSelection : MonoBehaviour
 {
 
 	int ScenesUnlocked;
-
 	public Button[] buttons;
 
 	// Use this for initialization
