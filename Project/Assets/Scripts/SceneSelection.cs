@@ -3,15 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class SceneSelection : MonoBehaviour
 {
 	int ScenesUnlocked;
 	public Button[] buttons;
+	// dddddddddddddd
+	[SerializeField] TMP_Text mainText;
 
 	void Start () 
 	{
 		ScenesUnlocked = PlayerPrefs.GetInt("ScenesUnlocked", 1);
+		
+		// dddddddddddddd
+		mainText.SetText(ScenesUnlocked.ToString());
 
 		foreach (Button _b in buttons)
 		{
@@ -44,4 +50,10 @@ public class SceneSelection : MonoBehaviour
 	{
 		SceneManager.LoadScene(SceneIndex);
 	}
+
+    public void ResetLevels()
+    {
+        PlayerPrefs.DeleteKey("ScenesUnlocked");
+    }
+
 }
