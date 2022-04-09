@@ -47,4 +47,91 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene End.unity
     guid: e02a5763de0e1e74c8b7d2f08d56ea59
+  - enabled: 1
+    path: Assets/Scenes/New Folder/Scene 11.unity
+    guid: fdf03795ea3578a4a9895fd0059ff2b4
+  - enabled: 1
+    path: Assets/Scenes/New Folder/Scene 12.unity
+    guid: a82011935b582a24fba2a2fd5500a482
+  - enabled: 1
+    path: Assets/Scenes/New Folder/Scene 3.1 1.unity
+    guid: 29af04cd4c2bc9c41b8d9db5b56ad559
+  - enabled: 1
+    path: Assets/Scenes/New Folder/Scene 13.unity
+    guid: 8b9ee9ee1c13107488ce110d94d44734
+  - enabled: 1
+    path: Assets/Scenes/New Folder/Scene 14.unity
+    guid: df228f6fb2d2e1749a1b7b55deda52f5
+  - enabled: 1
+    path: Assets/Scenes/New Folder/Scene 15.unity
+    guid: 0b10688c420ba1b4ea161c042a2d335c
+  - enabled: 1
+    path: Assets/Scenes/New Folder/Scene 16.unity
+    guid: 2687bd04d9564e545aab45e8527c44f1
+  - enabled: 1
+    path: Assets/Scenes/New Folder/Scene 17.unity
+    guid: 672e5d88562ab634ba71600c8d4bf44f
+  - enabled: 1
+    path: Assets/Scenes/New Folder/Scene 18.unity
+    guid: c06e24c07fb83a84695ffc25df7905c0
+  - enabled: 1
+    path: Assets/Scenes/New Folder/Scene 19_1.unity
+    guid: 09630f17694d56842ac2931a8720bb65
+  - enabled: 1
+    path: Assets/Scenes/New Folder/Scene 20_1.unity
+    guid: c2f45fb4712d0384a86f35962ac0de33
+  - enabled: 1
+    path: Assets/Scenes/New Folder/Scene 21_1.unity
+    guid: b8d2d8d932f19da40aedfd3d28fd9b58
+  - enabled: 1
+    path: Assets/Scenes/New Folder/Scene 22.unity
+    guid: 50ffae864a14e004d96f2736087e8911
+  - enabled: 1
+    path: Assets/Scenes/Scene_cut/Scene TK2_1.unity
+    guid: 47bf2e7ba4cb5504a8600b9814854c4b
+  - enabled: 1
+    path: Assets/Scenes/Scene_cut/Scene B.unity
+    guid: 126d53f22e1f5834b857234afa8d8ce9
+  - enabled: 1
+    path: Assets/Scenes/Scene_cut/Scene OD.unity
+    guid: 92da33b1c3205d1439f2899245bbcef0
+  - enabled: 1
+    path: Assets/Scenes/Scene_cut/Scene OD01.unity
+    guid: 41cddc5d273b1ed47956bb349b392af4
+  - enabled: 1
+    path: Assets/Scenes/Scene_cut/Scene OD02.unity
+    guid: ef8c49849c918af43a9f50bf063507a3
+  - enabled: 1
+    path: Assets/Scenes/Scene_cut/Scene OP.unity
+    guid: 30084bb1bffe73a4880cda17c8e7496c
+  - enabled: 1
+    path: Assets/Scenes/Scene_cut/Scene R.unity
+    guid: 597888c1654d540429c320afc97c1a55
+  - enabled: 1
+    path: Assets/Scenes/Scene_cut/Scene TK1.unity
+    guid: 9a8077d973abb2d4ab33595d0e5afb2f
+  - enabled: 1
+    path: Assets/Scenes/Scene_cut(Color)/Scene TK2_1_c.unity
+    guid: 2744f1de8d23f5a4aa135f90bf988b7c
+  - enabled: 1
+    path: Assets/Scenes/Scene_cut(Color)/Scene B_c.unity
+    guid: 85d1f0f9a1339394c8d5710b42267f92
+  - enabled: 1
+    path: Assets/Scenes/Scene_cut(Color)/Scene OD01_c.unity
+    guid: aa1864f510266ee4fb6e14a035e84e04
+  - enabled: 1
+    path: Assets/Scenes/Scene_cut(Color)/Scene OD02_c.unity
+    guid: b0de294ea0aaacf4ca0c7043ca17896b
+  - enabled: 1
+    path: Assets/Scenes/Scene_cut(Color)/Scene OD_c.unity
+    guid: ff91921ae43f82c4a96c59112aab0f9d
+  - enabled: 1
+    path: Assets/Scenes/Scene_cut(Color)/Scene OP_c.unity
+    guid: 51327f13339372e45a64b0a512ddac22
+  - enabled: 1
+    path: Assets/Scenes/Scene_cut(Color)/Scene R_c.unity
+    guid: 5abbb263e7f1a2141af29aae27ccaa58
+  - enabled: 1
+    path: Assets/Scenes/Scene_cut(Color)/Scene TK1_c.unity
+    guid: e440e194c42f1c744b796d64e601c3f1
   m_configObjects: {}
