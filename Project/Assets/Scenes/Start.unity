@@ -3776,6 +3776,8 @@ MonoBehaviour:
     sceneID: 12
   - _button: {fileID: 1759518879}
     sceneID: 6
+  - _button: {fileID: 358107661}
+    sceneID: 2
   mainText: {fileID: 630978985}
 --- !u!4 &630389208
 Transform:
@@ -5246,6 +5248,8 @@ MonoBehaviour:
     sceneID: 12
   - _button: {fileID: 1268978859}
     sceneID: 6
+  - _button: {fileID: 1969676817}
+    sceneID: 2
   mainText: {fileID: 630978985}
 --- !u!4 &775411101
 Transform:
